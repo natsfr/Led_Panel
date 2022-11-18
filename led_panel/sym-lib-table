@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "MPS_BUCK")(type "KiCad")(uri "${CUSTLIB}/Power/MPS/MPS_BUCK.kicad_sym")(options "")(descr ""))
+  (lib (name "wurth")(type "Legacy")(uri "${CUSTLIB}/Passive/capacitors/wurth.lib")(options "")(descr ""))
+  (lib (name "passives")(type "KiCad")(uri "${CUSTLIB}/Passive/passives.kicad_sym")(options "")(descr ""))
+  (lib (name "WS2812")(type "KiCad")(uri "${CUSTLIB}/Opto/WS2812.kicad_sym")(options "")(descr ""))
+)

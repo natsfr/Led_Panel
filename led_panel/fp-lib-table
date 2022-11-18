@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name "General_SMD")(type "KiCad")(uri "${CUSTLIB}/Pretty_Footprints/General_SMD.pretty")(options "")(descr ""))
+  (lib (name "QFN")(type "KiCad")(uri "${CUSTLIB}/Pretty_Footprints/QFN.pretty")(options "")(descr ""))
+  (lib (name "Wurth")(type "KiCad")(uri "${CUSTLIB}/Pretty_Footprints/Wurth.pretty")(options "")(descr ""))
+  (lib (name "Capacitor_THT")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/Capacitor_THT.pretty")(options "")(descr ""))
+  (lib (name "Connectors_Molex")(type "KiCad")(uri "${CUSTLIB}/Pretty_Footprints/Connectors_Molex.pretty")(options "")(descr ""))
+  (lib (name "WorldSemi")(type "KiCad")(uri "${CUSTLIB}/Pretty_Footprints/WorldSemi.pretty")(options "")(descr ""))
+  (lib (name "Connector_PinSocket_2.54mm")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/Connector_PinSocket_2.54mm.pretty")(options "")(descr ""))
+)
