@@ -1,55 +1,50 @@
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 295:Plugin executed on: 'linux'
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 296:Plugin executed with python version: '3.8.10 (default, Jun 22 2022, 20:18:18) \n[GCC 9.4.0]'
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 297:KiCad build version: 6.0.9-8da3e8f707~116~ubuntu20.04.1
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 298:Plugin version: 1.1.2
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Frame repr: <wx._core.Frame object at 0x7fe20a085a60>
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 323:Preparing replicator with U202 as a reference
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 351:source anchor footprint is 'U202'
-Located on: ['Power Lane 0']
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 312:Plugin executed on: 'linux'
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 313:Plugin executed with python version: '3.10.6 (main, Nov  2 2022, 18:53:38) [GCC 11.3.0]'
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 314:KiCad build version: 6.0.2+dfsg-1
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 315:Plugin version: 1.2.2
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 316:Frame repr: <wx._core.Frame object at 0x7f2d24fadcf0>
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 340:Preparing replicator with C402 as a reference
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 106:getting a list of all footprints on board
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 364:source anchor footprint is 'C402'
+Located on: ['Power Lane 1']
 With filenames: ['power_lane.kicad_sch']
-With sheet_id:['Power Lane 0']
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 358:Corresponding footprints are 
-[('U558', ['Power Lane 1']), ('U202', ['Power Lane 0'])]
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 370:Showing dialog
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 376:Toolbar position: wx.Point(4446, 90)
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 382:Dialog position: wx.Point(4082, 90)
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'Power Lane 0', file:'power_lane.kicad_sch'
-11-16 22:10:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['Power Lane 1']]
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'Power Lane 0', file:'power_lane.kicad_sch'
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['Power Lane 1']]
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 145:Replicating layout
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['Power Lane 1']]
-on level: ['Power Lane 0']
-with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False, by_group=False
-11-16 22:11:35 root 235:updating GUI message: 'Preparing for replication'
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
-11-16 22:11:35 root 240:updating GUI with: 0
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
-11-16 22:11:35 root 240:updating GUI with: 12
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
-11-16 22:11:35 root 240:updating GUI with: 25
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 257:Getting source zones
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source text items
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source drawing items
-11-16 22:11:35 root 235:updating GUI message: 'Replicating footprints'
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints
-11-16 22:11:35 root 240:updating GUI with: 0
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['Power Lane 1']
-11-16 22:11:35 root 235:updating GUI message: 'Replicating tracks'
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks
-11-16 22:11:35 root 240:updating GUI with: 0
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['Power Lane 1']
-11-16 22:11:35 root 235:updating GUI message: 'Replicating zones'
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 893:Replicating zones
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['Power Lane 1']
-11-16 22:11:35 root 235:updating GUI message: 'Replicating text'
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating text
-11-16 22:11:35 root 240:updating GUI with: 0
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['Power Lane 1']
-11-16 22:11:35 root 235:updating GUI message: 'Replicating drawings'
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['Power Lane 1']
-11-16 22:11:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 169:Replication complete
+With sheet_id:['Power Lane 1']
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 371:Corresponding footprints are 
+[('C201', ['Power Lane 0']), ('C402', ['Power Lane 1'])]
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 383:Showing dialog
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'Power Lane 1', file:'power_lane.kicad_sch'
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['Power Lane 0']]
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['Power Lane 1']
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 389:Toolbar position: wx.Point(1886, 92)
+11-23 01:58:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Dialog position: wx.Point(1522, 92)
+11-23 01:58:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'Power Lane 1', file:'power_lane.kicad_sch'
+11-23 01:58:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['Power Lane 0']]
+11-23 01:58:21 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 170:Replicating layout
+11-23 01:58:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 154:Starting replication of sheets: [['Power Lane 0']]
+on level: ['Power Lane 1']
+with tracks=True, zone=True, text=True, text=True, containing=True, remove=False, locked footprints=False, by_group=False
+11-23 01:58:21 root 252:updating GUI message: 'Preparing for replication'
+11-23 01:58:21 root 257:updating GUI with: 0
+11-23 01:58:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 224:Getting the list of source footprints
+11-23 01:58:21 root 257:updating GUI with: 0
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Getting the list of all the remaining footprints
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 244:Getting nets local to source footprints
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 247:Getting source bounding box
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source tracks
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source zones
+11-23 01:58:22 root 257:updating GUI with: 62
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source text items
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting source drawing items
+11-23 01:58:22 root 252:updating GUI message: 'Replicating footprints'
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 678:Replicating footprints
+11-23 01:58:22 root 257:updating GUI with: 0
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Power Lane 0']
+11-23 01:58:22 root 257:updating GUI with: 75
+11-23 01:58:22 root 252:updating GUI message: 'Replicating tracks'
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating tracks
+11-23 01:58:22 root 257:updating GUI with: 0
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Power Lane 0']
+11-23 01:58:22 root 252:updating GUI message: 'Replicating zones'
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 909:Replicating zones
+11-23 01:58:22 root 257:updating GUI with: 0
+11-23 01:58:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Power Lane 0']
